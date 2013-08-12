@@ -33,9 +33,6 @@ page.open(page.libraryPath + "/../html5bp/index.html", function (status) {
   page.evaluate(function(html) {
     
     var body = document.querySelector("body")
-
-    // Remove the paragraph HTML5 boilerplate adds
-    body.removeChild(document.querySelector("p"))
     
     var container = document.createElement("div")
     container.innerHTML = html

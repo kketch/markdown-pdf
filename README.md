@@ -93,3 +93,9 @@ Type: `Function`
 Default value: `null`
 
 Function to call after Markdown has been converted to HTML but before it is converted to PDF. It is passed the Markdown file contents and _must_ return a string
+
+#### options.highlight
+Type: `Boolean`
+Default value: `true`
+
+If set to true, pygments will be used to highlight code blocks.

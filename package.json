@@ -31,7 +31,8 @@
     "phantomjs": "~1.9.0-1",
     "async": "~0.2.8",
     "tmp": "~0.0.18",
-    "commander": "~1.3.0"
+    "commander": "~1.3.0",
+    "pygmentize-bundled": "git://github.com/kketch/node-pygmentize-bundled"
   },
   "devDependencies": {
     "mocha": "~1.12.0",
